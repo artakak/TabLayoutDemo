@@ -57,4 +57,46 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/button" />
 
+    <RadioButton
+        android:id="@+id/radioButton"
+        style="@style/Widget.AppCompat.CompoundButton.RadioButton"
+        android:layout_width="173dp"
+        android:layout_height="38dp"
+        android:layout_marginEnd="195dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="48dp"
+        android:text="Корридор"
+        app:layout_constraintBottom_toTopOf="@+id/radioButton2"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView" />
+
+    <RadioButton
+        android:id="@+id/radioButton2"
+        android:layout_width="173dp"
+        android:layout_height="38dp"
+        android:layout_marginBottom="123dp"
+        android:layout_marginEnd="195dp"
+        android:layout_marginStart="16dp"
+        android:text="Прихожая"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/radioButton" />
+
+    <ToggleButton
+        android:id="@+id/toggleButton"
+        style="@style/Base.Widget.AppCompat.CompoundButton.RadioButton"
+        android:layout_width="173dp"
+        android:layout_height="46dp"
+        android:layout_marginBottom="70dp"
+        android:layout_marginEnd="195dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="7dp"
+        android:text="ToggleButton"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/radioButton2" />
+
 </android.support.constraint.ConstraintLayout>
